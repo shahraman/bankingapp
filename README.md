@@ -49,7 +49,10 @@ mvn spring-boot:run     or from your IDE run  BankingappApplication
 http://localhost:8080/swagger-ui.html
 ![image](https://github.com/user-attachments/assets/40696843-9709-461c-b748-41005e3e5660)
 
-### Future enhancements:  
+### Future enhancements: 
+* Change in-memory H2 database with a regular production ready database like PostGreSQL
+* Extends unit tests to the other layers (dao and controller), add integration tests
+* Build a  graphical user interface to interact with the REST API in a user friendly way to improve UX
 * This application doesn't handle authentication nor authorization IAM access
 * This application doesn't handle SSL/TLS 
 * The domain design driven could be improved to have a dedicated entities to handle customers, accounts, transactons/operations ... instead of only one entity (account entity used here).
