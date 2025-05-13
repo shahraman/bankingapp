@@ -51,6 +51,6 @@ The application use alse swagger UI to streamline REST API testing
 * This application doesn't handle SSL/TLS 
 * The domain design driven could be improved to have a dedicated entities to handle customers, accounts, transactons/operations ... instead of only one entity (account entity used here).
 * The application could be containerized with Dockerfile to be deployed in container (docker-compose, kubernetes, ...)
-* The applicatio could be integrated in CI/CD pipeline via Jenkinsfile for example 
+* The application could be integrated in CI/CD pipeline via Jenkinsfile for example 
 
 
