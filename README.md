@@ -13,6 +13,7 @@ The application use alse swagger UI to streamline REST API testing
 *   Basic error and exception handling for common scenarios (e.g., insufficient funds, account not found)
 *   Logging
 *   Transaction management (ACID)
+*   Thread safe code avoiding race conditions (multithreading context) 
 
 ## Technologies Used
 
