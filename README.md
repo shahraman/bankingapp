@@ -43,6 +43,8 @@ The application use alse swagger UI to streamline REST API testing
 ## Unit test and BDD could be run with the command: mvn test
 ## Run the application using mvn spring-boot:run     or from your IDE run  BankingappApplication
 ## Use the REST endpoint from local deployment using swagger UI  http://localhost:8080/swagger-ui.html
+![image](https://github.com/user-attachments/assets/380a2200-f374-4830-8acf-dc63ab2c4ca6)
+
 
 ### Future enhancements:  
 * This application doesn't handle authentication nor authorization IAM access
@@ -51,4 +53,4 @@ The application use alse swagger UI to streamline REST API testing
 * The application could be containerized with Dockerfile to be deployed in container (docker-compose, kubernetes, ...)
 * The applicatio could be integrated in CI/CD pipeline via Jenkinsfile for example 
 
-![image](https://github.com/user-attachments/assets/380a2200-f374-4830-8acf-dc63ab2c4ca6)
+
