@@ -40,11 +40,13 @@ The application use alse swagger UI to streamline REST API testing
 * dto
 * exception
 
-## Unit test and BDD could be run with the command: mvn test
-## Run the application using mvn spring-boot:run     or from your IDE run  BankingappApplication
-## Use the REST endpoint from local deployment using swagger UI  http://localhost:8080/swagger-ui.html
-![image](https://github.com/user-attachments/assets/380a2200-f374-4830-8acf-dc63ab2c4ca6)
-
+## Unit test and BDD could be run with the command:
+mvn test
+## Run the application using: 
+mvn spring-boot:run     or from your IDE run  BankingappApplication
+## Use the REST endpoint from local deployment using swagger UI: 
+http://localhost:8080/swagger-ui.html
+![image](https://github.com/user-attachments/assets/40696843-9709-461c-b748-41005e3e5660)
 
 ### Future enhancements:  
 * This application doesn't handle authentication nor authorization IAM access
