@@ -52,6 +52,7 @@ http://localhost:8080/swagger-ui.html
 ### Future enhancements: 
 * Change in-memory H2 database with a regular production ready database like PostGreSQL
 * Extends unit tests to the other layers (dao and controller), add integration tests
+* Add health check indicators and metrics monitoring via spring boot actuator, or via spring boot admin
 * Build a  graphical user interface to interact with the REST API in a user friendly way to improve UX
 * This application doesn't handle authentication nor authorization IAM access
 * This application doesn't handle SSL/TLS 
